@@ -7,6 +7,8 @@
 ### Phaser (1st Prototype)
 ![Image showing two skirmish phasers](phaser-proto-v1/photos/IMG_1843.PNG)
 
+### Hitpoint (1st Prototype)
+[!Image showing a rendering of the hitpoint pcb](hitpoint-proto-v1/photos/rendering.png)
 
 ## Copyright Notice
 (C) 2022-2023 Ole Lange
