@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Skirmish Hitpoint")
+    (date "2023-01-28")
+    (rev "Proto V1")
+    (comment 1 "(C) 2023 - Ole Lange")
+  )
+
   (lib_symbols
     (symbol "+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
@@ -1841,27 +1848,6 @@
     (pin "4" (uuid 6bc1faa1-03fb-408a-be29-c6b62b9eea49))
   )
 
-  (symbol (lib_id "Connector:Conn_01x06_Female") (at 246.38 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 0d48edba-6a11-4de9-9ba7-d57620cb92a9)
-    (property "Reference" "J5" (id 0) (at 247.65 102.87 90))
-    (property "Value" "Conn_01x06_Female" (id 1) (at 247.65 102.87 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 246.38 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 246.38 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bb97abb2-0d8d-409c-ae61-e8709f21d44d))
-    (pin "2" (uuid dcaeaa15-ee48-4e81-88b2-168545b0dc0f))
-    (pin "3" (uuid fd35d57d-50f4-4165-afc5-3cae0aabc55b))
-    (pin "4" (uuid de307313-d046-4d20-a354-493c01924844))
-    (pin "5" (uuid 5095666f-c79d-46db-916a-b7213cc62d89))
-    (pin "6" (uuid 249cf5da-6f38-4a4d-a527-8513cdfaa60e))
-  )
-
   (symbol (lib_id "olib:STM32G030Fx") (at 71.12 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0f9bbbf0-ac35-40a5-8b02-011783baac36)
@@ -1946,27 +1932,6 @@
     (pin "3" (uuid 76434e9e-6abc-4b80-b499-c4d77c78550b))
     (pin "4" (uuid 315fad7c-ba9f-4af5-95fb-ead855d1b386))
     (pin "5" (uuid 74340f61-04b7-4449-8d67-7fbcfb3315da))
-  )
-
-  (symbol (lib_id "Connector:Conn_01x06_Female") (at 231.14 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 36df1fa2-6b5e-43d9-a8ed-cc052adfadaa)
-    (property "Reference" "J4" (id 0) (at 232.41 102.87 90))
-    (property "Value" "Conn_01x06_Female" (id 1) (at 232.41 102.87 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 231.14 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 231.14 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a6804ff9-3fa3-4965-8d3f-6bdec6f1df3e))
-    (pin "2" (uuid 887ec2ac-2166-45e9-9ef7-9e2c32e60628))
-    (pin "3" (uuid 3084961f-b847-4f8a-a1f7-e704f01d7155))
-    (pin "4" (uuid 180d6bf0-7959-4a00-a79b-a49b5058cdef))
-    (pin "5" (uuid 1cdabb92-bfb8-41b0-a70d-b2ab6aafecfd))
-    (pin "6" (uuid d033f753-5942-4a74-b5c6-5bdb8b37f470))
   )
 
   (symbol (lib_id "power:+5V") (at 40.64 53.34 0) (unit 1)
@@ -2584,12 +2549,6 @@
     )
     (path "/c9f09cb8-9d98-4485-ba76-2954adcadef8"
       (reference "J3") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
-    )
-    (path "/36df1fa2-6b5e-43d9-a8ed-cc052adfadaa"
-      (reference "J4") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
-    )
-    (path "/0d48edba-6a11-4de9-9ba7-d57620cb92a9"
-      (reference "J5") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/e84687a9-913e-41f2-b831-a1abb55afe0b"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
