@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Skirmish Hitpoint")
+    (date "2023-01-28")
+    (rev "Proto V1")
+    (comment 1 "(C) 2023 - Ole Lange")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
