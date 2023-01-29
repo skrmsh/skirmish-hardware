@@ -2651,7 +2651,7 @@
     (property "Value" "606090" (id 1) (at 152.4 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal" (id 2) (at 151.13 166.116 90)
+    (property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" (id 2) (at 151.13 166.116 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 151.13 166.116 90)
