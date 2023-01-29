@@ -44,3 +44,4 @@ out/
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
 .DS_Store
+breast-module-proto-v1/kicad/#auto_saved_files#
