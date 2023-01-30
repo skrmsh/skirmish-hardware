@@ -252,7 +252,7 @@
       (reference "#PWR064") (unit 1) (value "GND") (footprint "")
     )
     (path "/9d563b6a-d637-4d99-b65a-1be8c665a086/404e1862-e4bc-4fe4-88e9-dc70762f52e7"
-      (reference "BT1") (unit 1) (value "606090") (footprint "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal")
+      (reference "BT1") (unit 1) (value "606090") (footprint "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal")
     )
     (path "/9d563b6a-d637-4d99-b65a-1be8c665a086/8604a278-ec3a-4032-ac63-82e33f0fefe0"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
