@@ -11,5 +11,9 @@
 ![Image showing a rendering of the hitpoint 
 pcb](hitpoint-proto-v1/photos/rendering.png)
 
+### Breast Module (1st Prototype)
+![Image showing a rendering of the breast module 
+pcb](breast-module-proto-v1/photos/rendering.png)
+
 ## Copyright Notice
 (C) 2022-2023 Ole Lange
