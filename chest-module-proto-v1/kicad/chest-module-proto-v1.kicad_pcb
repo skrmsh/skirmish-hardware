@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "Skirmish Breast Module")
+    (title "Skirmish Chest Module")
     (date "2023-01-29")
     (rev "Proto V1")
     (comment 1 "(C) 2023 Ole Lange")
@@ -6543,10 +6543,10 @@
   (gr_text "Device Name:" (at 128 55.5) (layer "F.SilkS") (tstamp 849951d5-60d7-4665-bfa3-e1192b938355)
     (effects (font (size 1.5 1.5) (thickness 0.25)))
   )
-  (gr_text "Skirmish Breast Module (Proto V1)\nDesign / (C) 2023 Ole Lange" (at 145.5 80.75) (layer "F.SilkS") (tstamp c3307b37-dbe1-4c15-9694-6f250082a6b8)
+  (gr_text "Skirmish Chest Module (Proto V1)\nDesign / (C) 2023 Ole Lange" (at 145.5 80.75) (layer "F.SilkS") (tstamp c3307b37-dbe1-4c15-9694-6f250082a6b8)
     (effects (font (size 2 2) (thickness 0.4)))
   )
-  (gr_text "skrmbrst" (at 130.5 59) (layer "F.SilkS") (tstamp f08f4013-c8ae-45b4-95a4-0b3e56ffefcf)
+  (gr_text "skrmvest" (at 130.5 59) (layer "F.SilkS") (tstamp f08f4013-c8ae-45b4-95a4-0b3e56ffefcf)
     (effects (font (size 3 3) (thickness 0.5)))
   )
 
